@@ -1,0 +1,21 @@
+@use "_partials/signIn";
+@use "_partials/logIn";
+@use "_partials/main";
+@use "_partials/product";
+@use "_partials/cart";
+
+@use "_partials/navBar";
+@use "_partials/donate";
+@use "_partials/promo";
+
+@use "queries";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    letter-spacing: -1px;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+.donate {
+    background: #1e1e1e;
+    height: 100px;
+    text-align: center;
+    color: #ffffffeb;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.charity{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &-logo {
+        width: 30px;
+    }
+
+    h2 {
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+}
+
+.donate>a {
+    color: #009dff;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: initial;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+

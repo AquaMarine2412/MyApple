@@ -1,0 +1,38 @@
+@media only screen and (min-width:790px) {
+
+    .donate {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+    .promo h1 {
+        font-size: 3em;
+    }
+  
+    .promo p {
+        font-size: 1.5em;
+    }
+    
+    .shop-btn {
+        font-size: 1.1em;
+    }
+
+    .product-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-basis: 46.3vw;
+         
+        
+    }
+    .product {
+        width: 46.3vw;
+    }
+    
+    
+    
+}
+

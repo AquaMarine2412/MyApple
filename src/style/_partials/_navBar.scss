@@ -1,0 +1,38 @@
+.navBar {
+    display: flex;
+    background-color: #373839;
+    color: #e1e1e1;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.hamburger {
+    cursor: pointer;
+    &:hover {
+        color: #fff;
+    }
+}
+.menu {
+    display: none;
+}
+
+.logo {
+    width: 22px;
+    filter: brightness(0) invert(1);
+    opacity: 0.9;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.cart {
+    cursor: pointer;
+    &:hover {
+        color: #fff;
+    }
+}
