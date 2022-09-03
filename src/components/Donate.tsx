@@ -8,7 +8,7 @@ const Donate = () => {
           <h2>Charity Company</h2>
           <img className ="charity-logo" src={require("../img/charity.png")} alt="logo" />
       </div>
-      <a href='random.com' target="_blank">Donate to support whatever you want to support, pls 🡕 </a>
+      <a href='random.com' target="_blank">Donate to support whatever you want to support 🡕 </a>
     </div>
   )
 }

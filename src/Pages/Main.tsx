@@ -3,6 +3,7 @@ import Donate from '../components/Donate'
 import NavBar from '../components/NavBar'
 import Promo from './Promo'
 import Product from '../components/Product'
+import Footer from '../components/Footer'
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
         <Donate/>
         <Promo/>
         <Product/>
+        <Footer/>
     </div>
   )
 }

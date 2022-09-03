@@ -7,6 +7,7 @@
 @use "_partials/navBar";
 @use "_partials/donate";
 @use "_partials/promo";
+@use "_partials/footer";
 
 @use "queries";
 
@@ -17,5 +18,4 @@
     box-sizing: border-box;
     font-family: arial;
     letter-spacing: -1px;
-    text-align: center;
 }

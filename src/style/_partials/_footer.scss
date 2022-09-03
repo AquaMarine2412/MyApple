@@ -1,0 +1,47 @@
+.footer {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 0.9em;
+    background: #e9ebee83;
+    color: gray;
+    
+    .lorem {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px solid gray;
+    }
+}
+
+.copyright {
+    display: flex;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    cursor: pointer;
+
+    span {
+        display: flex;
+    }
+
+    span>* {
+        margin-right: 10px;
+        
+        &:hover {
+            text-decoration: underline;
+        }     
+    }
+}
+
+.breaker {
+    margin-right: 5px;
+}
+
+

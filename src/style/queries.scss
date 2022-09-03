@@ -1,5 +1,34 @@
 @media only screen and (min-width:790px) {
 
+    .navBar {
+        justify-content: space-evenly;
+        padding-inline: 5%;
+        height: 40px;
+    }
+    
+
+    .hamburger {
+      display: none!important;
+    
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        li {
+            font-size: 0.8em;
+            margin:20px;
+        }
+   
+    }
+    .search {
+        display: initial;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
     .donate {
     height: 70px;
     display: flex;
@@ -31,8 +60,12 @@
     .product {
         width: 46.3vw;
     }
-    
-    
+
+    .terms {
+        display: flex;
+        flex-direction: row;
+    }
+     
     
 }
 
