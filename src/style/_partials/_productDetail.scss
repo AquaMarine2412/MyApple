@@ -1,0 +1,114 @@
+.productDetailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+
+.productDetail {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+.productDetailVariants {
+    display: flex;
+  
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    &>* {
+        margin: 10px;
+    }
+    .description >* {
+        margin: 20px 0;
+    }
+}
+.description {
+    p {
+        font-size: 1em;
+        font-weight: 600;
+    }
+    h2 span {
+        color: #646464;
+    }
+}
+
+.productDetailImg {
+    width:400px;
+}
+
+.radio {
+
+    .label {
+        display: block;
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        font-size: 20px;
+
+        input {
+            position: absolute;
+            opacity: 0;
+            }
+        }
+        
+        .radioInput {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        background-color: #fff;    
+        border-radius: 50%;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.512);
+        }
+        .rp-red {
+            background: linear-gradient(135deg, #d82020e5, #f900008e);
+        }
+        .rp-black {
+            background: linear-gradient(135deg, #000000e5, #2a2a2a8e);
+        }
+        .rp-silver {
+            background:linear-gradient(135deg, #b7b7b7e5, #dcdcdc8e);
+        }
+        .rp-gold {
+            background: linear-gradient(135deg, #e4d500e5, #edcd2d8e);
+        }
+
+        .label input:checked ~ .radioInput {
+        background-color: #728C00;
+        }
+        
+        .label .radioInput:after {
+        top: 10px;
+        left: 10px;
+        width: 10px;
+        height: 10px;
+        border-radius: 80%;
+        background: white;
+        }
+        .label {
+            font-size: 1em;
+            color:#646464;
+        }
+}
+
+.cartButton {
+    border: none;
+    width: 120px;
+    padding: 10px 15px;
+    background: #0091ff;
+    color: white;
+    text-shadow: 0 0 2px rgb(1, 57, 125);
+    border-radius: 5px;
+    font-size: 1em;
+}

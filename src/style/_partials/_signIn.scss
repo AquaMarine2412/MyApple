@@ -1,0 +1,45 @@
+.SignInFormSection {
+    margin-block: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    &>* {
+        margin: 5px;
+    }
+    p {
+        font-size: 1.2em;
+    }
+}
+
+.SignInForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    input, button {
+        font-size: 1.1em;
+        padding: 15px 15px;
+        margin: 10px;
+        width:60vw;
+        border-radius: 5px;
+        border: 1px solid #b6b6b691;
+        &:focus {
+            outline: 3px solid rgba(0, 136, 255, 0.614);
+        }
+        &::placeholder {
+            color:#969696;
+        }
+    }
+    button {
+        background: #0091ff;
+        color: white;
+        text-shadow: 0 0 2px rgb(1, 57, 125);
+        width: 100px;
+        
+    }
+        
+    
+}

@@ -1,0 +1,90 @@
+.LogInFormSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 77vh;
+    h2 {
+        margin-bottom: 10px;
+    }
+}
+
+.LogInForm {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    button {
+        position: absolute;
+        right: 4%;
+        top: 34.5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 1px solid #252525;
+        background-color: #fff;
+        height: 30px;
+        width: 30px;
+        font-size: 1.5em;
+        opacity: 0.5;
+        &:hover {
+            opacity: 0.8;
+        }
+        &:active {
+            opacity: 1;
+        }
+    }
+    input {
+        font-size: 1.1em;
+        padding: 12px 15px;
+        width: 350px;
+        
+        border: 1px solid #b6b6b691;
+        &:nth-child(1){
+            border-radius: 5px 5px 0 0;
+        }
+        &:nth-child(2){
+            border-radius: 0 0 5px 5px;
+            border-top: 0;
+        }
+        &:focus {
+            outline: 3px solid rgba(0, 136, 255, 0.614);
+        }
+        &::placeholder {
+            color:#969696;
+        }
+        
+    }
+
+    .checkbox {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        
+        input {
+            width: max-content;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        label {
+            cursor: pointer;
+        }
+    }
+
+    .signIn {
+        margin-block: 10px;
+        font-size: 0.9em;
+        color:#969696;
+
+        &Link {
+            text-decoration: none;
+            color: rgba(0, 136, 255, 0.614)
+        }
+    }
+}

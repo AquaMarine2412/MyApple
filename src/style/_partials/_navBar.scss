@@ -5,8 +5,16 @@
     background-color: #373839;
     color: #e1e1e1;
     height: 50px;
-    padding: 0 15px;
+    padding: 13px 15px;
+    transition: all 0.3s ease;
+}
 
+.rolledOutMenu {
+    height: 100vh;
+    background: rgb(12, 12, 12);
+    padding-block: 13px;
+    align-items:flex-start;
+    transition: all 0.7s ease;
 }
 
 .hamburger {
@@ -30,22 +38,88 @@
 
 .menu {
     display: none;
-
+    transition: all 1s ease;
+  
     li {
         list-style-type: none;
+        text-decoration: none;
         cursor: pointer;
+        >* {
+            color: inherit;
+            text-decoration: none;
+        }
+       
+        &:hover {
+            color: #fff;
+        }
     }
-
 }
+
+.menuOpen {
+    display: initial;
+    position: absolute;
+    margin: 40px 20px;
+    width: 85%;
+    
+    li {
+        padding: 10px 0;
+        border-top: 1px solid gray;
+        color: #b0b0b0;
+        font-size: 1.2em;
+        font-weight: 300;
+        &:nth-child(1) {
+            border: none;
+        }
+    }
+    
+}
+
+.searchIcon-cart{
+    display: flex;
+    align-items: center;
+}
+
 
 .search {
     display: none!important;
     cursor: pointer;
 }
 
-.cart {
+.searchInput {
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    padding: 5px 10px;
+    background: rgb(55, 55, 55);
+    width: 100%;
+    color: rgb(113, 113, 113);
+    font-size: 1em;
+    &::placeholder {
+        color: rgb(113, 113, 113);
+        font-size: 1.1em; 
+    }
+}
+
+.searchInputBar {
+    border: 1px solid #717171;
+    border-radius: 7px;
+    outline: none;
+    padding: 2px 5px;
+    margin-right: 5px;
+    background: rgb(55, 55, 55);
+    color: #717171;
+    font-size: 1em;
+    &::placeholder {
+        color: #717171;
+        font-size: 1.1em; 
+    }
+}
+
+.cart-icon {
     cursor: pointer;
+    color:#e1e1e1;
     &:hover {
         color: #fff;
     }
 }
+

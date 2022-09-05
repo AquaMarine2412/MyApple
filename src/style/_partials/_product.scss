@@ -71,7 +71,12 @@
     font-size: 1.1em;
     letter-spacing: -0.5px;
     margin: 10px;
+    cursor: pointer;
     &:hover {
         text-decoration: underline;
+    }
+    >* {
+        text-decoration: none;
+        color:inherit
     }
 }

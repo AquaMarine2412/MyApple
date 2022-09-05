@@ -1,5 +1,5 @@
 @media only screen and (min-width:790px) {
-
+    // NAVIGATIION BAR
     .navBar {
         justify-content: space-evenly;
         padding-inline: 5%;
@@ -13,7 +13,7 @@
     }
 
     .menu {
-        display: flex;
+        display: flex!important;
         flex-direction: row;
         justify-content: space-between;
         
@@ -24,11 +24,11 @@
    
     }
     .search {
-        display: initial;
+        display: initial!important;
         margin-left: auto;
         margin-right: 20px;
     }
-
+    // DONATE
     .donate {
     height: 70px;
     display: flex;
@@ -36,7 +36,11 @@
     flex-direction: row;
     justify-content: center;
     }
-
+    // PROMO
+    .promo {
+        height: 84vh;
+    }
+    
     .promo h1 {
         font-size: 3em;
     }
@@ -48,13 +52,12 @@
     .shop-btn {
         font-size: 1.1em;
     }
-
+    // PRODUCT
     .product-container {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         flex-basis: 46.3vw;
-         
         
     }
     .product {
@@ -65,7 +68,41 @@
         display: flex;
         flex-direction: row;
     }
-     
+
+    .SignInForm {
+        input, button {  
+            width:30vw;
+        }
+    }
+
+    .LogInForm {  
+        button {
+            right: 3%;
+        }
+    }
+
+    // PRODUCT DETAIL
+    .productDetailContainer {
+        flex-direction: row;
+        height: 90vh;
+    }
+
+    .productDetail {
+        h1 {
+            margin: 20px;
+            font-size: 2em;
+        }
+    }
+
+    .ProductDetailImg {
+        width:70vh;
+    }
+
+    .cartContainer {
+
+        width: 60%;
+        margin: 0 auto;
+    }
     
 }
 

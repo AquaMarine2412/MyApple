@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import { product } from "../data/data"
 
 const Product = () => {
@@ -13,7 +14,7 @@ const Product = () => {
 
         <div className='product-buttons'>
           <button className='learn-more'>Learn more {">"}</button>
-          <button className='shop-btn'>Buy {">"}</button>
+          <button className='shop-btn'><Link to="/productdetail">Buy{">"}</Link> </button>
         </div>
         
         <img className ="product-img" src={require(`../img/${product.image}`)} alt="product" />
